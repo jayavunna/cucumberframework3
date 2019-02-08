@@ -21,9 +21,14 @@ Feature: Chrome Installed
 
 
 
-Feature: Chrome Installed
-  Scenario: Chrome Installation
+#Feature: Chrome Installed
+#  Scenario: Chrome Installation
+#    Given I am a chrome user
+#    When I access Argos url
+#    Then  I see Argos homepage
+
+
+  Scenario: Chrome Installation2
     Given I am a chrome user
-    When I access Argos url
-    Then  I see Argos homepage
-    
+    When I access Hsbc url
+    Then I see Hsbc homepage
