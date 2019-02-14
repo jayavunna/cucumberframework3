@@ -2,34 +2,28 @@ Feature: Chrome Installed
   Scenario: Chrome Installation
     Given I am a chrome user
     When I access Argos url
-    Then I see Argos home page
-
-
-
-
-
-  Scenario: Chrome Installation
+    Then  I see Argos homepage
+  @One
+  Scenario: Chrome Installation1
     Given I am a chrome user
     When I access Amazon url
-    Then I see Amazon home page
-
-
-
-
-
-  Scenario: Chrome Installation
+    Then I see Amazon homepage
+  @One
+  Scenario: Chrome Installation2
     Given I am a chrome user
     When I access Hsbc url
-    Then I see Hsbc home page
+    Then I see Hsbc homepage
+
+#  Scenario: Chrome Installation
+#    Given I am a chrome user
+#    When I access google url
+#    Then I see Google home page
 
 
 
-
-
+Feature: Chrome Installed
   Scenario: Chrome Installation
     Given I am a chrome user
-    When I access google url
-    Then I see Google home page
-
-
-
+    When I access Argos url
+    Then  I see Argos homepage
+    
